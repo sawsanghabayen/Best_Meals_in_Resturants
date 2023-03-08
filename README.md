@@ -1,7 +1,6 @@
 # Best Meals in Resturants Project
 
-This is an best meals in resturants project (Multi Vendor![rest permission](https://user-images.githubusercontent.com/72333733/223694416-dfb8eb19-a417-47d9-ae2c-b218559d160d.PNG)
-) that allows users to comment and rating on meals and  purchase meals online . The website is built using Laravel PHP for the backend, with MySQl as the database.
+This is an best meals in resturants project (Multi Vendor) that allows users to comment and rating on meals and  purchase meals online . The website is built using Laravel PHP for the backend, with MySQl as the database.
 
 ## Features
 
