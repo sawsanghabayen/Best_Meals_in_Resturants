@@ -1,64 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Best Meals in Resturants Project
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is an best meals in resturants project (Multi Vendor![rest permission](https://user-images.githubusercontent.com/72333733/223694416-dfb8eb19-a417-47d9-ae2c-b218559d160d.PNG)
+) that allows users to comment and rating on meals and  purchase meals online . The website is built using Laravel PHP for the backend, with MySQl as the database.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The website includes the following features:
+- User Authentication: Users can create accounts, login and register
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Product Catalog: Users can browse restaurants, categories, or products by category, or search for specific products, by price.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Product details: Users can view the details of each product, including description, price, and photos.
 
-## Learning Laravel
+- Shopping Cart: Users can add products to their shopping cart and view the contents of their cart, they can change quantities for items, and they can delete items.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Users can add products to their wishlist and view and delete items.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Users can add comments and ratings on the product and see other users' comments and ratings.
 
-## Laravel Sponsors
+- Checkout page: Users can book a new address or book a previously saved address.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Order History: Users can see their previous orders
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+The control panel includes the following features:
 
-## Contributing
+- Administrator authentication: Administrators can create accounts, login and register, and edit profile.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Supervisors can give permission to restaurant owners or withdraw them.
 
-## Code of Conduct
+- Administrators can create, edit, delete and browse categories, products by category.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Supervisors can create, edit, delete and browse restaurants.
 
-## Security Vulnerabilities
+- Administrators can browse contact us users.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Administrators can browse orders, edit status, they can filter orders.
 
-## License
+- Administrators can export the report as PDF and Excel for orders and products.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Administrators can filter specific products and categories by price, category, name, condition and can sort by A-Z, Z-A and newer.
+
+## Website Users
+**Home Page:**![home](https://user-images.githubusercontent.com/72333733/223693043-0e9afae7-0b63-47bb-8bf1-df81bda1bb4c.png)
+
+**category Page:**![categories](https://user-images.githubusercontent.com/72333733/223693359-e1449779-b493-4713-ab7b-f25df6ca3998.png)
+
+**resturants Page:**![resturants](https://user-images.githubusercontent.com/72333733/223693529-1b9a6547-e1a7-4ed1-8817-d2fc954c9f6b.png)
+
+**Wishlist Page:**![favorite](https://user-images.githubusercontent.com/72333733/223693678-ba7008c0-fdb7-456b-91d0-47325dd6fbbe.png)
+
+**Cart Page:**![cart](https://user-images.githubusercontent.com/72333733/223693760-43e598d9-ed1a-421d-914b-1effab5a1d26.png)
+
+**Checkout Page:**![address](https://user-images.githubusercontent.com/72333733/223693800-d352ed66-dd19-4335-b72c-11c0f963f89b.png)
+
+**Order Page:**![orders](https://user-images.githubusercontent.com/72333733/223693827-443ce1b0-65d7-4bb5-b848-75e9c4f32035.png)
+
+**Order Details Page:**![order details](https://user-images.githubusercontent.com/72333733/223693855-74b58301-f8be-4792-85e9-1e112a974156.png)
+ 
+**Contact Us Page:**![contact us](https://user-images.githubusercontent.com/72333733/223694091-55bfee1b-bf83-4ba0-9d30-8871cf1b7d60.png)
+
+
+## Control Panel
+![control panel](https://user-images.githubusercontent.com/72333733/223694274-2877ab0e-d297-4a58-aa0b-6cdefabe8ee5.png)
+
+![rest permission](https://user-images.githubusercontent.com/72333733/223694531-6d4a473b-cd78-4128-8e5c-7a268c2cb287.PNG)
